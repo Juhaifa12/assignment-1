@@ -6,13 +6,13 @@
   font-style: normal;
 }
 
-.raleway-normal {
+.raleway-normal{
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
 
-
+.bg-c{color: #F5F8FF;}
 /* shared styles */
 .btn-primary{
     background-color: #4E47FF;
@@ -63,6 +63,124 @@ nav li {
     text-align: center;
 }
 
+
 .we{
     margin-bottom: 164px;
+}
+.section-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 23px;
+}
+.section-description{
+    font-size: 24px;
+    font-weight: normal;
+    color: #252432;
+    margin-bottom: 23px;
+}
+.action-img{
+    width: 403px;
+    border-radius: 48px;
+    border: none;
+    margin-right: 159px;
+    margin-left: 220px;
+    margin-top: 116px;
+    
+    
+}
+.action{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* productive-section */
+.productive-title{
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+    text-align: center;
+    margin-top: 50px
+}
+.productive-value{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+
+}
+.productive-label{
+    font-size: 20px;
+    font-weight: normal;
+    color: #000000;
+}
+.productive-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.productive{
+    margin-left: 151px;
+    margin-right: 145px;
+    margin-top: 40px;
+}
+.productive-section{
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 137px;
+    width: 1140px;
+    height: 309px;
+    margin-top: 116px;
+    
+}
+.secondary-bg{
+    background-color: rgba(78, 71,255 , 0.10);
+
+}
+.review-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    text-align: center;
+    margin-bottom: 50px;
+}
+/* ratings */
+.title{
+    color:#757575;
+}
+.description-r{
+    color: #B3B3B3;
+    
+}
+.avatar{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.avatar-block{
+    display: flex;
+}
+.info{
+    margin-left: 12px;
+}
+.review-c{
+    display: flex;
+    gap: 20px;
+    
+}
+.review{
+    width: 1140px;
+    height: 342px;
+    gap: 50px;
+}
+.review-content{
+    padding: 24px;
+    background-color: rgba(255, 255, 255, 0.5);
 }
