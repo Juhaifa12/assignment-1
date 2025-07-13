@@ -260,6 +260,9 @@ gap: 2px;
     margin-bottom: 20px;
     line-height: 120%;
 }
+.ready-img{
+    border-radius: 48px;
+}
 .ready-button{
     display: block;
         margin: 0 auto;
