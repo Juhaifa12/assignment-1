@@ -30,6 +30,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     margin: 50px 150px;
+    margin-top: 0;
 }
 .nav-title{
     font-weight: 800;
@@ -41,7 +42,7 @@ nav li {
 }
 /* header */
 .header{background-image: url('../Assets/Hero-bg.png');
-    
+
 }
 /* banner styles */
 .banner{
@@ -61,6 +62,7 @@ nav li {
     margin-top: 309px;
     margin-left: 267.5px;
     margin-right: 267.5px;
+
 }
 .center-content{
     text-align: center;
@@ -94,9 +96,7 @@ nav li {
 .action{
     display: flex;
     gap: 203px;
-    /* width: 1140px; */
-
-   justify-content: space-between;
+  justify-content: space-between;
    align-items: center;
    padding: 120px 0;
 }
@@ -110,6 +110,8 @@ main{
     font-size: 38px;
     font-weight: 700;
     color: rgba(37, 36, 50, 1);
+
+
 }
 .productive-value{
     font-size: 80px;
@@ -160,17 +162,14 @@ main{
     height: 40px;
     
 }
- /* .info{ */
-display: flex;
-flex-direction: column;
+ .info{
 justify-content: center;
-line-height: 1.2;
+gap: 2px;
 }
 .avatar-block .info h3{
     font-size: 14px;
     font-weight: 600;
     color: rgba(117, 117, 117, 1);
-    /* display: block; */
 }
 .avatar-block .info h4{
     font-size: 12px;
@@ -179,12 +178,8 @@ line-height: 1.2;
 }
 .avatar-block{
     display: flex;
-    align-items: center;
-    /* text-align: left; */
-    /* margin: 0px; */
-    /* width: 318.67px; */
-    /* height: 46px; */
-    gap: 12px;
+    padding: 0 0;
+    gap: 6px;
     margin-top: 19.2px;
 }
 .avatar-block .avatar img{
