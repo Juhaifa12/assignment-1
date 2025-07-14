@@ -269,18 +269,24 @@ gap: 2px;
     }
 .body-c{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 30px 150px;
-    gap: auto;
-    width: auto;
+    /* padding: 30px 150px; */
+    gap: 152px;
+    /* width: 1140px; */
+    padding-bottom: 71px;
 }
-.container h2{
+.title-c{
     font-size: 97px;
-    line-height: 120%;
-    margin: 0px 215px 200px 150px;
-    padding-top: 200px;
+    /* line-height: 120%; */
+    /* margin: 0px 215px 200px 150px; */
+    /* padding-top: 200px; */
     color: #000000;
+    font-weight: 700;
+    width: 528px;
+    height: 232px;
+    
+
 }
 .c-right{
     display: flex;
